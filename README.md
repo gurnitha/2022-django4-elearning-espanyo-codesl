@@ -12,3 +12,11 @@
         modified:   templates/views/default/header.html
         new file:   templates/views/index/about.html
         modified:   templates/views/index/index.html
+
+#### 24-96 Adding custom.css
+
+        modified:   README.md
+        new file:   static/css/custom.css
+        modified:   templates/views/default/header.html
+
+        NOTE: :)
