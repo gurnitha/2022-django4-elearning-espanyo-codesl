@@ -148,3 +148,11 @@
         modified:   App/Controllers/CursosController.py
         modified:   App/Models/Cursos_models.py
         modified:   templates/views/cursos/details.html
+
+
+#### 29-120
+
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   Usuarios/urls.py
+        modified:   static/css/style.css
