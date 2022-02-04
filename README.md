@@ -156,3 +156,8 @@
         modified:   App/Models/Cursos_models.py
         modified:   Usuarios/urls.py
         modified:   static/css/style.css
+
+
+#### 29-120 - Modified settings.py based on my file
+
+        modified:   Usuarios/settings.py
