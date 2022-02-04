@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Usuarios.Controllers.IndexController import IndexController
+from App.Controllers.IndexController import IndexController
 urlpatterns = [
     #Obtenemos los parametro que se ingresan a traves de la url para ejcutar las vista segun el parametro
     path('', IndexController.index, name='index'),
-    path('about', IndexController.about, name='about'),
+    path('/about', IndexController.about, name='about'),
     path('admin/', admin.site.urls, name='login'),
 ]

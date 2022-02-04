@@ -41,3 +41,19 @@
 
         modified:   Usuarios/settings.py
         modified:   Usuarios/urls.py
+
+#### 26-101
+
+        new file:   App/Controllers/IndexController.py
+        new file:   App/__init__.py
+        new file:   App/admin.py
+        new file:   App/apps.py
+        new file:   App/migrations/__init__.py
+        new file:   App/models.py
+        new file:   App/tests.py
+        new file:   App/views.py
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        new file:   static/css/login.css
+        new file:   templates/admin/login.html
+        modified:   templates/views/default/header.html
