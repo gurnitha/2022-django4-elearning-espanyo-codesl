@@ -57,3 +57,8 @@
         new file:   static/css/login.css
         new file:   templates/admin/login.html
         modified:   templates/views/default/header.html
+
+#### 26-102
+
+        modified:   static/css/login.css
+        modified:   templates/admin/login.html
