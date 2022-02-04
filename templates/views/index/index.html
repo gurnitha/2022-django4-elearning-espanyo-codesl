@@ -11,18 +11,30 @@
     <input id="s8" type="radio" name="slide1" />
     <input id="s9" type="radio" name="slide1" />
     <input id="s10" type="radio" name="slide1" />
+    
     <div class="sh__content">
+        <!-- Slider Item -->
+        <div class="sh__item">
+            <img src="{% static 'images/Python-portada.png' %}" alt="imgText" class="imgSlider" />
+            <!-- Item Info -->
+            <div class="sh__meta">
+                <h4>Python and Django</h4>
+                <span>Curso de Python MVC and Django administración de usuarios
+                    <a href="#urlPage">with link</a></span>
+            </div>
+        </div>
         <!-- Slider Item -->
         <div class="sh__item">
             <img src="{% static 'images/UWP.png' %}" alt="imgText" class="imgSlider" />
             <!-- Item Info -->
             <div class="sh__meta">
                 <h4>UWP</h4>
-                <span>Curso de app para la plataforma universal de Windows UWP C# <a href="#urlPage">with link</a></span>
+                <span>Curso de app para la plataforma universal de Windows UWP C# <a href="#urlPage">with
+                        link</a></span>
             </div>
         </div>
-         <!-- Slider Item -->
-         <div class="sh__item">
+        <!-- Slider Item -->
+        <div class="sh__item">
             <img src="{% static 'images/Xamarin.png' %}" alt="imgText" class="imgSlider" />
             <!-- Item Info -->
             <div class="sh__meta">
@@ -100,19 +112,19 @@
                 </span>
             </div>
         </div>
-        <div class="sh__item">
+        <!--div class="sh__item">
             <img src="{% static 'images/System3.png' %}" alt="imgText" class="imgSlider" />
             <!-- Item Info -->
-            <div class="sh__meta">
+            <!--div class="sh__meta">
                 <h4>Java & MySQL y SQL</h4>
                 <span>
                     Como crear un sistema punto de ventas en Java & MySQL y SQL
                 </span>
             </div>
-        </div>
+        </div-->
     </div>
-     <!--botones-->
-     <div class="sh__btns">
+    <!--botones-->
+    <div class="sh__btns">
         <label for="s1"></label>
         <label for="s2"></label>
         <label for="s3"></label>
@@ -123,6 +135,7 @@
         <label for="s8"></label>
         <label for="s9"></label>
         <label for="s10"></label>
+       
     </div><!-- .sh__btns -->
     <!--flechas-->
     <div class="sh__arrows">
@@ -136,6 +149,7 @@
         <label for="s8"></label>
         <label for="s9"></label>
         <label for="s10"></label>
+        
     </div><!-- .sh__arrows -->
 </div>
 {% include "views/default/footer.html" %}

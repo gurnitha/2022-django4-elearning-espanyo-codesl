@@ -20,3 +20,13 @@
         modified:   templates/views/default/header.html
 
         NOTE: :)
+
+#### 24-97
+
+        modified:   README.md
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        new file:   static/images/Python-portada.png
+        new file:   templates/404.html
+        modified:   templates/views/default/header.html
+        modified:   templates/views/index/index.html
