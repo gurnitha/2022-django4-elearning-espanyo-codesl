@@ -110,3 +110,10 @@
 
         new file:   App/Models/Cursos_models.py
         modified:   App/admin.py
+
+
+#### 29-115
+
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   templates/views/cursos/cursos.html
