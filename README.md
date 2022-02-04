@@ -82,3 +82,9 @@
         modified:   Usuarios/settings.py
         modified:   Usuarios/urls.py
         new file:   media/images/curso/Systema-portada-core.png
+
+#### 28-110
+ 
+        modified:   App/admin.py
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
