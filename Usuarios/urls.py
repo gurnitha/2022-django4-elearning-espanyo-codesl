@@ -25,4 +25,5 @@ urlpatterns = [
     path('about', IndexController.about, name='about'),
     path('admin/', admin.site.urls, name='login'),
     path('cursos', CursosController.index, name='cursos'),
+    path('details/<int:cursoid>/',CursosController.details, name='details'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

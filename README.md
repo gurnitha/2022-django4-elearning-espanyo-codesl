@@ -117,3 +117,12 @@
         modified:   App/Controllers/CursosController.py
         modified:   App/Models/Cursos_models.py
         modified:   templates/views/cursos/cursos.html
+
+
+#### 29-116
+
+        modified:   App/Controllers/CursosController.py
+        modified:   Usuarios/urls.py
+        new file:   media/images/curso/Android3.png
+        modified:   templates/views/cursos/cursos.html
+        new file:   templates/views/cursos/details.html

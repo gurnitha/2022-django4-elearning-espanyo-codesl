@@ -5,3 +5,6 @@ class CursosController():
         cursos_list =  Cursos_models.cursos_list()
         context = {'cursos_list': cursos_list}
         return render(request, 'views/cursos/cursos.html',context)
+
+    def details(request,cursoid):
+        return render(request, 'views/cursos/details.html')
