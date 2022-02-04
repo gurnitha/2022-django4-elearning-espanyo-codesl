@@ -104,3 +104,9 @@
         new file:   media/images/curso/System3.png
         new file:   templates/views/cursos/cursos.html
         modified:   templates/views/default/header.html
+
+
+#### 29-114
+
+        new file:   App/Models/Cursos_models.py
+        modified:   App/admin.py
