@@ -30,3 +30,9 @@
         new file:   templates/404.html
         modified:   templates/views/default/header.html
         modified:   templates/views/index/index.html
+
+#### 25-99
+
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        modified:   templates/views/default/header.html
