@@ -39,6 +39,7 @@ if DEBUG is True:
 # Application definition
 
 INSTALLED_APPS = [
+    'App.apps.AppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

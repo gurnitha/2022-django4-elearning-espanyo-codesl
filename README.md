@@ -62,3 +62,16 @@
 
         modified:   static/css/login.css
         modified:   templates/admin/login.html
+
+#### 27-107
+
+        modified:   App/admin.py
+        new file:   App/migrations/0001_initial.py
+        new file:   App/migrations/0002_auto_20190325_1450.py
+        modified:   App/models.py
+        modified:   README.md
+        modified:   Usuarios/settings.py
+        new file:   static/css/base.css
+        new file:   templates/admin/base.html
+        new file:   templates/admin/base_site.html
+        modified:   templates/views/default/header.html
