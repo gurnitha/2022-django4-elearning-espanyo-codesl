@@ -18,9 +18,11 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 from App.Controllers.IndexController import IndexController
+from App.Controllers.CursosController import CursosController
 urlpatterns = [
     #Obtenemos los parametro que se ingresan a traves de la url para ejcutar las vista segun el parametro
     path('', IndexController.index, name='index'),
     path('about', IndexController.about, name='about'),
     path('admin/', admin.site.urls, name='login'),
+    path('cursos', CursosController.index, name='cursos'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

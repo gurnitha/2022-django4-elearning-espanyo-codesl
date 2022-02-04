@@ -94,3 +94,13 @@
         modified:   App/admin.py
         modified:   README.md
         new file:   media/images/curso/Python-portada.png
+
+
+#### 29-113 
+
+        new file:   App/Controllers/CursosController.py
+        modified:   App/admin.py
+        modified:   Usuarios/urls.py
+        new file:   media/images/curso/System3.png
+        new file:   templates/views/cursos/cursos.html
+        modified:   templates/views/default/header.html
