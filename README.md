@@ -88,3 +88,9 @@
         modified:   App/admin.py
         modified:   Usuarios/settings.py
         modified:   Usuarios/urls.py
+
+#### 28-111
+
+        modified:   App/admin.py
+        modified:   README.md
+        new file:   media/images/curso/Python-portada.png
