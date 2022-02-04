@@ -8,3 +8,8 @@ class CategoriasAdmin(admin.ModelAdmin):
     list_filter = ('Nombre', 'Estado')
     
 admin.site.register(Categorias,CategoriasAdmin)
+
+class CursosAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Cursos,CursosAdmin)    

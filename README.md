@@ -75,3 +75,10 @@
         new file:   templates/admin/base.html
         new file:   templates/admin/base_site.html
         modified:   templates/views/default/header.html
+
+#### 28-109 Course registration
+
+        modified:   App/admin.py
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        new file:   media/images/curso/Systema-portada-core.png
