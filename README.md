@@ -126,3 +126,11 @@
         new file:   media/images/curso/Android3.png
         modified:   templates/views/cursos/cursos.html
         new file:   templates/views/cursos/details.html
+
+
+#### 29-117
+
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   templates/views/cursos/cursos.html
+        modified:   templates/views/cursos/details.html

@@ -12,7 +12,11 @@
                 </div>
                 <div class="card-body">
                     <h5>{{ curso.Nombre }}</h5>
-                    <p class="card-text">{{ curso.Descripcion }}</p>
+                    {% if curso.Estado %}
+                    <p class="text-success">Disponibles.</p>
+                    {% else %}
+                    <p class="text-danger">No disponibles.</p>
+                    {% endif %}
                     <h5>${{ curso.Costo }}</h5>
                 </div>
             </div>
