@@ -11,13 +11,38 @@
                     </a>
                 </div>
                 <div class="card-body">
-                    <h5>{{ curso.Nombre }}</h5>
-                    {% if curso.Estado %}
-                    <p class="text-success">Disponibles.</p>
-                    {% else %}
-                    <p class="text-danger">No disponibles.</p>
-                    {% endif %}
-                    <h5>${{ curso.Costo }}</h5>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h5>{{ curso.Nombre }}</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {% if curso.Estado %}
+                                    <p class="text-success">Disponibles.</p>
+                                    {% else %}
+                                    <p class="text-danger">No disponibles.</p>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>${{ curso.Costo }}</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form method="POST" action="obtener">
+                                        {% csrf_token %}
+                                        <input type="hidden" value="{{ curso.CursoId }}" name="cursoid" size="1" />
+                                        <input type="submit" class="btn btn-success btn-sm" value="Obtener">
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

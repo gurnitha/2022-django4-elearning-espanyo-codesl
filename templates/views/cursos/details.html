@@ -5,7 +5,58 @@
             <div class="card" style="width: 21rem;">
                 <img src="/media/{{ curso.Imagen }}" class="thumbnail" />
                 <div class="card-body">
-                    <h3 class="card-title">{{ curso.Nombre }}</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h4>{{ curso.Nombre }}</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {% if curso.Estado %}
+                                    <p class="text-success">Disponibles.</p>
+                                    {% else %}
+                                    <p class="text-danger">No disponibles.</p>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>${{ curso.Costo }}</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form method="POST" action="obtener">
+                                        {% csrf_token %}
+                                        <input type="hidden" value="{{ curso.CursoId }}" name="cursoid" size="1" />
+                                        <input type="submit" class="btn btn-success btn-sm" value="Obtener">
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    Descripcion
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>{{ curso.Descripcion }}</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
