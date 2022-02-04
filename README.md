@@ -36,3 +36,8 @@
         modified:   Usuarios/settings.py
         modified:   Usuarios/urls.py
         modified:   templates/views/default/header.html
+
+#### 25-99 Modified database connection and remove '/' in about url
+
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
