@@ -186,3 +186,9 @@
         new file:   App/Models/User_forms.py
         modified:   README.md
         modified:   templates/views/user/register.html
+
+
+#### 30-125 REGISTER 4
+
+        modified:   App/Controllers/UserController.py
+        modified:   templates/views/user/register.html
