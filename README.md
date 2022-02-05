@@ -161,3 +161,11 @@
 #### 29-120 - Modified settings.py based on my file
 
         modified:   Usuarios/settings.py
+
+
+#### 30-122 REGISTER 1
+
+        modified:   App/Controllers/CursosController.py
+        modified:   Usuarios/settings.py
+        new file:   media/images/curso/Systema-portadaASP-NET-Core.png
+        new file:   media/images/curso/Systema5.png

@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 from App.Models.Cursos_models import Cursos_models
+from django.http import HttpResponseRedirect
 
 class CursosController():
     def index(request):
@@ -13,4 +14,10 @@ class CursosController():
         return render(request, 'views/cursos/details.html',context)
 
     def obtener_curso(request):
+        if request.method=='POST':
+            if request.user.is_authenticated:
+                 data=request.POST['cursoid']
+                 return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
+            else:
+                return HttpResponseRedirect('admin')
         
