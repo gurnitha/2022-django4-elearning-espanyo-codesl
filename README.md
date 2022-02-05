@@ -178,3 +178,11 @@
         modified:   Usuarios/urls.py
         modified:   templates/views/default/header.html
         new file:   templates/views/user/register.html
+
+
+#### 30-124 REGISTER 3
+
+        modified:   App/Controllers/UserController.py
+        new file:   App/Models/User_forms.py
+        modified:   README.md
+        modified:   templates/views/user/register.html
