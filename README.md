@@ -169,3 +169,12 @@
         modified:   Usuarios/settings.py
         new file:   media/images/curso/Systema-portadaASP-NET-Core.png
         new file:   media/images/curso/Systema5.png
+
+
+#### 30-123 REGISTER 2
+
+        new file:   App/Controllers/UserController.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+        modified:   templates/views/default/header.html
+        new file:   templates/views/user/register.html
