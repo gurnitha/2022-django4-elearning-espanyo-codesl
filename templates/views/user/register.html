@@ -9,6 +9,9 @@
             <form action="{{ app_path }}" method="post" id="login-form">
                 {% csrf_token %}
                 {{ form}}
+                <p class="errornote text-danger">
+                    {{ error }}
+                </p>
                 <div class="submit-row">
                     <input type="submit" value="Registrar" class="btn btn-success">
                 </div>

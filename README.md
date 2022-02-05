@@ -192,3 +192,12 @@
 
         modified:   App/Controllers/UserController.py
         modified:   templates/views/user/register.html
+
+
+#### 30-126 REGISTER 5
+
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Controllers/UserController.py
+        new file:   App/migrations/0003_auto_20190501_0822.py
+        modified:   App/models.py
+        modified:   templates/views/user/register.html

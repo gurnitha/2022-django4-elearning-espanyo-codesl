@@ -1,6 +1,8 @@
 from django.shortcuts import render,HttpResponse
 from App.Models.Cursos_models import Cursos_models
 from django.http import HttpResponseRedirect
+from ..models import Inscripcion
+from datetime import date
 
 class CursosController():
     def index(request):
@@ -16,8 +18,15 @@ class CursosController():
     def obtener_curso(request):
         if request.method=='POST':
             if request.user.is_authenticated:
-                 data=request.POST['cursoid']
-                 return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
+                cursoid=request.POST['cursoid']
+                user = request.user.id
+                model = Inscripcion(
+                    CursoId=cursoid,
+                    EstudianteID=user,
+                    Fecha=date.today()
+                )
+                model.save()
+                return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
             else:
                 return HttpResponseRedirect('admin')
         
